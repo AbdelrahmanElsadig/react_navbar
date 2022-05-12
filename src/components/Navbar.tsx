@@ -28,7 +28,7 @@ const Navbar = () => {
                  ${show ? '-rotate-45 -translate-y-2' : ''}
                 `}></div>
             </div>
-            <nav ref={nav} className="block w-[95%] mx-auto h-0 duration-300 transition-all justify-center gap-4 md:max-h-full overflow-hidden md:flex md:self-center ">
+            <nav ref={nav} className="block w-[95%] mx-auto h-0 md:h-auto duration-300 transition-all justify-center gap-4 md:max-h-full overflow-hidden md:flex md:self-center ">
                 <a href="#" className="flex text-xl py-2 ease-in-out rounded-sm w-full hover:bg-sky-50 transition-all duration-300
                 hover:text-sky-500 hover:pl-4 md:hover:bg-transparent md:hover:pl-0 md:w-fit">Home</a>
                 <a href="#" className="flex text-xl py-2 ease-in-out rounded-sm w-full hover:bg-sky-50 transition-all duration-300
